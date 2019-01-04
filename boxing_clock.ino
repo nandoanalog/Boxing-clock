@@ -267,7 +267,6 @@ for(byte i = 74; i<94;i++){
                                                             
                                                              /* Functions from here onwards!*/
  void Seg1(){for(byte i = 0; i<8;i++){                       /*setting up all the segments*/
- }
   LedsOnDisplay[Disp][i]=CHSV(h,s,v);}}
 void Seg2(){for(byte i = 8; i<15;i++){
   LedsOnDisplay[Disp][i]=CHSV(h,s,v);}}
